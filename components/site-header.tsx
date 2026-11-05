@@ -17,13 +17,13 @@ export function SiteHeader() {
         <Link
           href="/#beranda"
           className="flex items-center gap-2.5"
-          aria-label="Grooma beranda"
+          aria-label="Casera beranda"
         >
           <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white">
             <Scissors className="h-5 w-5" />
           </span>
           <span className="text-lg font-extrabold tracking-[-.05em] text-primary-hover">
-            Grooma
+            Casera
           </span>
         </Link>
         <div className="hidden items-center gap-7 text-sm font-medium text-muted lg:flex">

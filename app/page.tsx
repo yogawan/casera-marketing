@@ -247,16 +247,17 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-14 px-5 py-16 sm:px-8 lg:grid-cols-[1fr_.9fr] lg:items-center lg:py-24">
           <div className="max-w-xl">
             <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary-light bg-surface/80 px-3.5 py-2 text-[10px] font-bold tracking-[.14em] text-primary">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary" /> APLIKASI
-              KASIR & MANAJEMEN BARBERSHOP
+              <span className="h-1.5 w-1.5 rounded-full bg-primary" /> CASERA
+              CORE SERVICE
             </p>
             <h1 className="text-4xl font-bold leading-[1.05] tracking-[-.03em] text-primary-hover sm:text-5xl lg:text-6xl">
               Kelola Semua Cabang Barbershop Anda dalam Satu Dashboard
             </h1>
             <p className="mt-7 text-lg leading-8 text-muted">
-              Dari transaksi harian, stok produk, sampai komisi karyawan — semua
-              tercatat rapi dan bisa Anda pantau real-time, dari cabang mana
-              pun.
+              Casera Core Service adalah sistem inti yang mengelola operasional
+              barbershop Anda — dari transaksi harian, stok produk, sampai
+              komisi karyawan, semua tercatat rapi dan bisa Anda pantau
+              real-time dari cabang mana pun.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild>
@@ -569,7 +570,7 @@ function PhoneMockups({ className }: { className?: string }) {
   return (
     <Image
       src="/phone-mockups.png"
-      alt="Tampilan aplikasi Grooma di HP pemilik dan staf"
+      alt="Tampilan aplikasi Casera di HP pemilik dan staf"
       width={480}
       height={440}
       className={className}
